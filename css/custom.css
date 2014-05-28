@@ -1,0 +1,56 @@
+﻿html, body {
+    height:100%;
+    width:100%;
+    font-family: verdana, helvetica, arial, sans-serif;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height:100%;
+}
+
+.counter {
+    display: flex;
+    flex-direction: column;
+    height:100%;
+}
+
+.count {
+    flex: 1;
+    height:50%;
+    background: #00BFFF;
+    color: #FFF;
+}
+
+.actions {
+    flex: 1;
+    height:50%;
+}
+
+.split {
+    border-right: 1px;
+    border-color: #00BFFF;
+    border-style: solid;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    height:100%;
+    background: #FFF;
+    color: #00BFFF;
+}
+
+.button {
+    flex: 1;
+    height:100%;
+    user-select: none;
+}
+
+
+.button:hover {
+    color: #008FFF;
+    cursor: pointer;
+}
