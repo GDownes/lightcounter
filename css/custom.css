@@ -54,3 +54,20 @@
     color: #008FFF;
     cursor: pointer;
 }
+
+#clear {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #FFF;
+    color: #00BFFF;
+    font-size: 0.3em;
+    padding: 0.3em;
+    margin: 0.1em;
+    border-radius: 50%;
+}
+
+#clear:hover {
+    color: #008FFF;
+    cursor: pointer;
+}

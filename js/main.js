@@ -11,5 +11,9 @@
         count = count - 1;
         $("#countValue").text(count);
     });
+    $("#clear").on("click", function () {
+        count = 0;
+        $("#countValue").text(count);
+    });
     document.body.onmousedown = function () { return false; }
 });
