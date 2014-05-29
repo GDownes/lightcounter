@@ -1,7 +1,7 @@
 ﻿$(function () {
     var count = 0;
-    $(".counter").fitText(0.4);
-    $(".button").fitText(0.3);
+    //$(".counter").fitText(0.4);
+    //$(".button").fitText(0.3);
     $("#countValue").text(count);
     $("#plus").on("click", function() {
         count = count + 1;
